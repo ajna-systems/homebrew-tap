@@ -7,16 +7,16 @@ class Ajna < Formula
   version "0.0.3"
 
   url "https://dl.ajna.systems/cli/0.0.3/ajna-0.0.3-linux-x86_64.tar.gz"
-  sha256 "f6c68ad46ab32d5b2fd1250958df17a96776cce2c9aa7bfaa45f828b647578f7"
+  sha256 "ef1b782cd0aab16e40469af4b764ab8e26b05606fdde97c974b1a6bcbae06d47"
 
   on_macos do
     on_arm do
       url "https://dl.ajna.systems/cli/0.0.3/ajna-0.0.3-darwin-arm64.tar.gz"
-      sha256 "b9ce5ed184d6f56ebf5f8e3e2f7d240f2d3ed36bf2f79e14da14eb981f57f55b"
+      sha256 "bbb254a470216f119143c9bd70434e83bbfa661ba936cbe6b87366e906e12595"
     end
     on_intel do
       url "https://dl.ajna.systems/cli/0.0.3/ajna-0.0.3-darwin-x86_64.tar.gz"
-      sha256 "9bd782e2833a98678c3a443ce1e0de23f01b4ce603b596764f89983979bff16a"
+      sha256 "1adfa04335ceb1e3707b0775003c9d0879b026e7f4378c1b56b238068e971e39"
     end
   end
 
@@ -24,7 +24,7 @@ class Ajna < Formula
     depends_on arch: :x86_64
     on_intel do
       url "https://dl.ajna.systems/cli/0.0.3/ajna-0.0.3-linux-x86_64.tar.gz"
-      sha256 "f6c68ad46ab32d5b2fd1250958df17a96776cce2c9aa7bfaa45f828b647578f7"
+      sha256 "ef1b782cd0aab16e40469af4b764ab8e26b05606fdde97c974b1a6bcbae06d47"
     end
   end
 
