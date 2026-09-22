@@ -4,27 +4,27 @@
 class Ajna < Formula
   desc "AJNA CLI and core-host"
   homepage "https://ajna.systems"
-  version "0.0.29"
+  version "0.0.30"
 
-  url "https://dl.ajna.systems/cli/0.0.29/ajna-0.0.29-linux-x86_64.tar.gz"
-  sha256 "ef270bed091e5c948b582cdd349262f1e401ea17926f85376c4e21f01911644c"
+  url "https://dl.ajna.systems/cli/0.0.30/ajna-0.0.30-linux-x86_64.tar.gz"
+  sha256 "78d138d56b8fb6866098ffc07e9aa22bfaef9a0eee62a6000f2c9f6c93f43562"
 
   on_macos do
     on_arm do
-      url "https://dl.ajna.systems/cli/0.0.29/ajna-0.0.29-darwin-arm64.tar.gz"
-      sha256 "ca12d6752ffec434862d342af43c4a2536e73657c3db9bb00b85c5579cb37831"
+      url "https://dl.ajna.systems/cli/0.0.30/ajna-0.0.30-darwin-arm64.tar.gz"
+      sha256 "ee3b504563b43dcb05eb2870af6f46a7a5df205cf6f759a5e79599f98f2dd295"
     end
     on_intel do
-      url "https://dl.ajna.systems/cli/0.0.29/ajna-0.0.29-darwin-x86_64.tar.gz"
-      sha256 "ec3d61f4504a29dd3f706f5d774977676806a0a5795080d909549937fd7813b0"
+      url "https://dl.ajna.systems/cli/0.0.30/ajna-0.0.30-darwin-x86_64.tar.gz"
+      sha256 "16d7c86613959d7d5ffa7a7757dac46ab59944fe617442d78720a3468db1074b"
     end
   end
 
   on_linux do
     depends_on arch: :x86_64
     on_intel do
-      url "https://dl.ajna.systems/cli/0.0.29/ajna-0.0.29-linux-x86_64.tar.gz"
-      sha256 "ef270bed091e5c948b582cdd349262f1e401ea17926f85376c4e21f01911644c"
+      url "https://dl.ajna.systems/cli/0.0.30/ajna-0.0.30-linux-x86_64.tar.gz"
+      sha256 "78d138d56b8fb6866098ffc07e9aa22bfaef9a0eee62a6000f2c9f6c93f43562"
     end
   end
 
